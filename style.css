@@ -1,0 +1,30 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+#box-item {
+  background-color: #f1f1f1;
+}
+#box-information {
+  width: 32%;
+  background-color: #3c3c3c;
+  height: 250px;
+}
+#box-calling-code {
+  width: 32%;
+  height: 250px;
+  background-color: #fbc433;
+}
+#box-img {
+  background-color: white;
+  width: 32%;
+  height: 250px;
+}
