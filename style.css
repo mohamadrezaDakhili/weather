@@ -23,6 +23,11 @@ body {
   height: 250px;
   background-color: #fbc433;
 }
+#calling-code {
+  font-size: 82px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+}
 #box-img {
   background-color: white;
   width: 32%;

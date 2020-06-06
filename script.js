@@ -16,7 +16,15 @@ $(document).ready(function () {
       url: `https://restcountries.eu/rest/v2/alpha/${$(this).val()}`,
       method: "GET",
     }).done(function (res) {
-      console.log(res.flag);
+      $("#txt-country").text(res.name);
+      $("#native-name").text(res.nativeName);
+      $("#capital").text(res.capital);
+      $("#region").text(res.region);
+      $("#population").text(res.population);
+      $("#languages").text(res.languages[0].name);
+      $("#time-zones").text(res.timezones);
+      $("#calling-code").text(res.callingCodes);
+      console.log(res.callingCodes);
     });
   });
 
