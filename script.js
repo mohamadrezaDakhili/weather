@@ -24,7 +24,8 @@ $(document).ready(function () {
       $("#languages").text(res.languages[0].name);
       $("#time-zones").text(res.timezones);
       $("#calling-code").text(res.callingCodes);
-      console.log(res.callingCodes);
+      $("#image-country").attr("src", res.flag);
+      console.log(res);
     });
   });
 
