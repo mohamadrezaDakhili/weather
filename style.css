@@ -1,3 +1,7 @@
+* {
+  /* text-align: center; */
+  font-family: "american";
+}
 html,
 body {
   width: 100%;
@@ -36,4 +40,16 @@ body {
 #image-country {
   width: 95%;
   height: 95%;
+}
+#box-map {
+  width: 64%;
+  height: 400px;
+}
+#box-weather {
+  width: 32%;
+  height: 400px;
+  background-color: white;
+}
+#img-weather {
+  width: 100px;
 }
